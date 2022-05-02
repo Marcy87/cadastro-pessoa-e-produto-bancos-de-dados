@@ -185,7 +185,7 @@ public class SQLite {
                 String cmdUpdate = "update " +
                         "   produto " +
                         "set " +
-                        "   nomeProduto = "+produto.getNomeProduto()+", " +
+                        "   nomeProduto = '"+produto.getNomeProduto()+"', " +
                         "   preco = '"+produto.getPreco()+"' " +
                         "where " +
                         "   codBarra = '"+produto.getCodBarra()+"'";
